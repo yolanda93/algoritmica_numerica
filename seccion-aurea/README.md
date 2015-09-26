@@ -1,0 +1,5 @@
+# Seccion aurea
+
+En esta práctica implemento el método de la sección áurea en Matlab y lo pruebo con algunas de las funciones, comparando el intervalo obtenido con el método con su representación gráfica. Este método se basa en ir acotando un intervalo de partida en otros de longitud decreciente. 
+
+El paso inicial dividimos el intervalo [a,b] que pasamos como argumento y dato conocido de la función en tres subintervalos, evaluamos la función. Si se da el caso de que f(x1)<=f(x2), siendo x1 y x2 los dos puntos para subdividir el intervalo, el mínimo está en la izquierda por tanto el nuevo intervalo será [a,x2], descartando [x2,b], en caso contrario descartamos [a,x1] y así repetimos el paso anterior con el nuevo intervalo, tantas iteraciones como hallamos definido. Además la razón de cada subdivisión es el número áureo.
