@@ -1,0 +1,8 @@
+
+### Metodo de Rosenbrock 
+El método de Rosenbrock es un método de optimización de funciones para encontrar un mínimo local de la función, a diferencia de otros métodos, este método puede que no converga por lo que establecemos un número máximo de iteraciones además como criterio de parada. 
+
+Se basa en la evaluación de la función en el punto de partida y en un punto más el paso. 
+Este paso lo vamos reduciendo o aumentando, según la evaluación de la función, es decir, según su imagen sea menor que la anteriormente obtenida, este sería el caso de éxito. Por tanto, en caso de éxito multiplicaremos el paso por un valor alfa mayor que la unidad, en caso contrario lo reducimos con un valor que llamamos beta. En mi caso los valores de alfa y beta ideales encontrados han sido ½ y -1/2 respectivamente.
+
+Al final de la ejecución del algoritmo obtenemos de forma aproximada un minimo local de la función.
